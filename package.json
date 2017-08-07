@@ -1,0 +1,41 @@
+{
+  "name": "Syamil-ALKhawarizmi",
+  "version": "1.0.0",
+  "description": "Hello world from Syamil Al-Khawarizmi",
+  "homepage": "https://github.com/mazipan/Syamil-ALKhawarizmi",
+  "author": "Irfan Maulana <mazipanneh@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "npm run build && webpack-dev-server --inline --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazipan/Syamil-ALKhawarizmi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazipan/Syamil-ALKhawarizmi/issues"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "es6-promise": "^4.1.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
